@@ -4,7 +4,7 @@ use yii\web\AssetBundle;
 
 class MessagesAsset extends AssetBundle 
 {
-    public $sourcePath = '@vuamext/widgets/navbar'; 
+    public $sourcePath = '@uamext/widgets/navbar'; 
     public $css = [];
     public $js = [
         'nav-messages.js',
