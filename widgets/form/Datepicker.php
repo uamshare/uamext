@@ -23,7 +23,7 @@ class Datepicker extends \yii\widgets\InputWidget
         parent::init();
 		$this->options['id'] = 'uam-datepicker-' . $this->attribute;
 		$this->options['class'] = 'form-control';
-		$this->clientOptions = yii\helpers\ArrayHelper::merge($this->defaultclientoptions, $this->clientOptions);
+		$this->clientOptions = \yii\helpers\ArrayHelper::merge($this->defaultclientoptions, $this->clientOptions);
 		//if($this->data == null){
 		//	throw new InvalidConfigException('The "data" property must be set.');
 		//}
