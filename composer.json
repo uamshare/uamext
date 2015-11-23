@@ -1,0 +1,23 @@
+{
+    "name": "uamext/yii2-widgets",
+    "description": "Widget suite for yii2",
+    "keywords": ["yii2", "extension", "widget","gridview", "datatable", "form", "Datepicker", "Select2"],
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "2.0",
+        "almasaeed2010/adminlte": "2.3.2",
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "uam",
+            "email": "uamshare@mail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "uamext\\": ""
+        }
+    }
+}
